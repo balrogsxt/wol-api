@@ -1,0 +1,11 @@
+debug: true
+jwt_key: "" #jwt秘钥
+http:
+  host: 0.0.0.0
+  port: 8089
+api_key: "" #接口调用秘钥,防止有人想关我电脑
+wol:
+  mac_addr: "XX:XX:XX:XX:XX:XX:XX" #目标机器的MAC物理地址,用于发送魔术封包
+  ip: "192.168.31.200" #目标机器IP地址,用于检测开机状态
+  network: "en0" #与目标机器互联的网卡名称
+  port: 10269 #用于休眠的接口端口
